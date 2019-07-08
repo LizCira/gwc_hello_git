@@ -107,17 +107,32 @@ Make a change to hello.txt (or even add a new file!) Run the git commands to Add
 
 You're now collaborating on an open source project. WOoOoooooh! 
 
+8. Bonus rounds! So now, what happens if laptop #1 wants to add or change something more? Can you just go ahead and commit a new file? 
+
+Spoiler: NO! 
+
+Before laptop #1 can add more code, you'll need to **pull changes**. Right now, the github repository is **ahead** of laptop #1. If you try to push code from laptop #1, you'll get an error message. 
+
+Run the following command to resolve it: 
+
+```git pull origin master```
+
+Now laptop #1 and laptop #2 are both in sync with what's on github. 
 
 
-# Further Reading
 
-## Bash commands
+## Further Reading
+
+### Bash commands
 http://www.informit.com/blogs/blog.aspx?b=2e1a39cd-e73b-4f8d-82f2-5f9b769132e1
 
-## More about git history
+### More about git history
 https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
 
-## Markdown
+### More about merge conflicts
+https://help.github.com/en/articles/about-merge-conflicts
+
+### Markdown
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ## Bash Prompt
