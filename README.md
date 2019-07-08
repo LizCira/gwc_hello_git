@@ -37,7 +37,7 @@ Yay! You've made an empty repository.
 
 "A what?" 
 
-A **reposistory** is where you can upload code. For today's demo, we're going to be using github.com for our repository, but there are other services that serve the same function. 
+A **repository** is where you can upload code. For today's demo, we're going to be using github.com for our repository, but there are other services that serve the same function. 
 
 ### 4. Lets add some content to our repository! Still using laptop #1, type the following: 
 
