@@ -119,7 +119,7 @@ Run the following command to resolve it:
 
 Now laptop #1 and laptop #2 are both in sync with what's on github, and you can continue working.
 
-### 9. Branching, merging, reverting, merge conflicts and open source... we're out of time!
+### 9. Branching, merging, reverting, merge conflicts... hey look, we're out of time!
 
 j/k lol. We might not be out of time. If we're not, here's a few more things to try. 
 
@@ -149,7 +149,13 @@ You just combined your login_screen code and your master code. Run ```git log```
 
 **Uh-oh! A merge conflict :(** There will probably come a time as you work together that you'll find a merge conflict. This happens when two programmers try to change the exact same line. 
 
+Try it yourselves within your group and see what happens. First run
 
+```cd master```
+
+```git pull origin master```
+
+Overwrite the first line of hello.txt. Then try to commit and push it back to master. You should get an error message. You should also see two versions of your text in your text editor. Choose the correct version (presumably the more recent change) delete the rest, and try to commit and push again. 
 
 **What if you want to undo?** Every now and then, you'll find you code yourself into such a bad place you just need to throw away a couple of hours work and start over. It's ok! Just as long as you don't have to throw away the whole project. Git lets you do this. That's why you should always commit everything; it gives you more places you can go back to. 
 
@@ -161,9 +167,16 @@ The full list of git commands is more than I can cover today (that's what the do
 
 As I said, be very careful with this since it will completely erase the work you did after commit ######. Read the git documentation for other ways to revert commits. 
 
+### 10. Open source
 
+So why are we sharing all of this code, anyway? If you put all this work into something, wouldn't you want to keep it for yourself? Open source is as much a philosophy as it is a programming practice. With an open source tool like github, you can test other people's code and fix bugs in other people's code. You can provide cool new tools for your community. You can do pretty much anything! Linux, the operating system MacOS is based on, couldn't exist without open source. A big tech company like Facebook or Google develops an amazing code testing framework, and instead of keeping it, they open source it and let anyone use it--the result is everyone has better tested code :D 
 
+Think about contributing to open source. If you want to learn more, github has a "Good first issue" tag
+https://github.com/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22
+Also, a "Help wanted" tag
+https://github.com/issues?page=3&q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22
 
+Although both of those can be pretty advanced, so don't get discouraged! 
 
 
 ## Further Reading
@@ -189,5 +202,5 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 ### Bash Prompt
 http://osxdaily.com/2013/02/05/improve-terminal-appearance-mac-os-x/
 
-### The history of open source
+### The history of Linux open source
 http://www.unterstein.net/su/docs/CathBaz.pdf
