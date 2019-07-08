@@ -54,7 +54,21 @@ Hit save.
 
 Go back to the terminal and type ```ls```. This command lists all the files in the folder you're working in. 
 
-You should see hello.txt. Excellent. So, just like you saved the text document, now you're going to **commit** it. Sounds serious right? Committing code is when you add it to your repository, and also add it to the git history of your entire codebse. Once you've committed code, that version of that code will always exist. You can go back to it if you have to. Why would you have to? Maybe your code gets so complicated it stops working, and no matter how hard you try to fix it, it only get's worse. You may just want to go back to "a known good state." Comitting is the ultimate "save" for your code. 
+You should see hello.txt. Excellent. So, just like you saved the text document, now you're going to **commit** it. Sounds serious right? Committing code is when you add it to your repository, and also add it to the git history of your entire codebse. Once you've committed code, that version of that code will always exist. You can go back to it if you have to. Why would you have to? Maybe your code gets so complicated it stops working, and no matter how hard you try to fix it, it only get's worse. You may just want to go back to "a known good state." Comitting is the ultimate "save" for your code.
+
+Type the following: 
+
+```git add -A .```
+
+```git commit -m "My first commit"```
+
+###Detour #2: What does the "-m" mean? The "m" here stands for message, and it can be any text you want it to be. A good message should describe your changes, so a programmer reading the git messages can understand your thoughts while you were writing your code. 
+
+Congratulations! You committed. But nothing looks different. Try typing 
+
+```git log```
+
+Now you should see the author, date, commit message, and a long text string (we'll talk about the text string later.) 
 
 
 
@@ -68,6 +82,9 @@ You should see hello.txt. Excellent. So, just like you saved the text document, 
 
 ## Bash commands
 http://www.informit.com/blogs/blog.aspx?b=2e1a39cd-e73b-4f8d-82f2-5f9b769132e1
+
+## More about git history
+https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
 
 ## Markdown
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
