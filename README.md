@@ -27,7 +27,7 @@ On laptop #1, type the following linux commands into your terminal
 
 ```cd ~/Desktop```
 
-```Mkdr my_first_repo```
+```mkdir my_first_repo```
 
 ```cd my_first_repo```
 
