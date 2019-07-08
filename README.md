@@ -3,7 +3,7 @@
 
 Today, we will be learning about some basic, low-level concepts that often aren't taught in school. 
 
-1) Open your **terminal***.
+1) Open your **terminal**.
 
 "Open my what??"
 
@@ -62,7 +62,7 @@ Type the following:
 
 ```git commit -m "My first commit"```
 
-###Detour #2: What does the "-m" mean? The "m" here stands for message, and it can be any text you want it to be. A good message should describe your changes, so a programmer reading the git messages can understand your thoughts while you were writing your code. 
+### Detour 2: What does the "-m" mean? The "m" here stands for message, and it can be any text you want it to be. A good message should describe your changes, so a programmer reading the git messages can understand your thoughts while you were writing your code. 
 
 Congratulations! You committed. But nothing looks different. Try typing 
 
@@ -70,9 +70,13 @@ Congratulations! You committed. But nothing looks different. Try typing
 
 Now you should see the author, date, commit message, and a long text string (we'll talk about the text string later.) 
 
+If you want to, now try making a second change to your .txt file, and commit that with the same commands above. Don't forget to change your message!
 
+6. This is grat, we've got our code saved locally, but how do we share it. It's time to learn about **pushing code** and to do that, we'll sign up for github.com. 
 
+https://github.com/
 
+Pick a username and password, and use your email address, and you're all set! 
 
 
 
