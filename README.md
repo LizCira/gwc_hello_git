@@ -3,7 +3,7 @@
 
 Today, we will be learning about some basic, low-level concepts that often aren't taught in school. 
 
-1) Open your **terminal**.
+### 1) Open your **terminal**.
 
 "Open my what??"
 
@@ -11,13 +11,13 @@ Today, we will be learning about some basic, low-level concepts that often aren'
 
 Ok. Now you have the terminal open. You can customize your terminal too, there's a link in "Further reading."
 
-2) Now that you have your terminal open, the first thing we're going to do is configure git. Git has already been installed on your latptops. Of course, use your name and email address instead of the examples below. Congratulations! You're now a git user. 
+### 2) Now that you have your terminal open, the first thing we're going to do is configure git. Git has already been installed on your latptops. Of course, use your name and email address instead of the examples below. Congratulations! You're now a git user. 
 
 ```git config --global user.name "FIRST_NAME LAST_NAME"```
 
 ```git config --global user.email "MY_NAME@example.com"```
 
-3) Next we're going to pair up and make your first git repo. We're going to do what's called **pair programming**, where you both work at one workstation (laptop.) Often, developers do this because a second set of eyes catches bugs faster while the code is still being written. Today, we're doing it so you can learn how git is used to share code between two (or more) programmers. 
+### 3) Next we're going to pair up and make your first git repo. We're going to do what's called **pair programming**, where you both work at one workstation (laptop.) Often, developers do this because a second set of eyes catches bugs faster while the code is still being written. Today, we're doing it so you can learn how git is used to share code between two (or more) programmers. 
 
 On laptop #1, type the following linux commands into your terminal 
 
@@ -35,7 +35,7 @@ Yay! You've made an empty repository.
 
 A **reposistory** is where you can upload code. For today's demo, we're going to be using github.com for our repository, but there are other services that serve the same function. 
 
-4. Lets add some content to our repository! Still using laptop #1, type the following: 
+### 4. Lets add some content to our repository! Still using laptop #1, type the following: 
 
 ```touch hello.txt```
 ```open hello.txt```
@@ -48,7 +48,7 @@ Write the following
 
 Hit save. 
 
-5. Now we're going to commit our new code. 
+### 5. Now we're going to commit our new code. 
 
 Go back to the terminal and type ```ls```. This command lists all the files in the folder you're working in. 
 
@@ -70,7 +70,7 @@ Now you should see the author, date, commit message, and a long text string (we'
 
 If you want to, now try making a second change to your .txt file, and commit that with the same commands above. Don't forget to change your message!
 
-6. This is great, we've got our code saved locally, but how do we share it. It's time to learn about **pushing code** and to do that, we'll sign up for github.com. 
+### 6. This is great, we've got our code saved locally, but how do we share it. It's time to learn about **pushing code** and to do that, we'll sign up for github.com. 
 
 https://github.com/
 
@@ -93,7 +93,7 @@ Now, refresh your browser, and you'll see your file!
 Even crazier, switch to laptop #2 and type in the github URL for your new repository. You should see the same thing. Anyone on the internet can you see your hello.txt now. Congratulations, you've shared code! This is so exciting, let's just take sixty second to celebrate our greatness. 
 
 
-7. Whew! That was fun, but we're back. We used laptop #1 to write a file, and share it. Now we're going to use laptop #2 to **pull** the code, and contribute. 
+### 7. Whew! That was fun, but we're back. We used laptop #1 to write a file, and share it. Now we're going to use laptop #2 to **pull** the code, and contribute. 
 
 For this exercise, both users will need to be collaborators. You'll see a few tabs at the top of your github page. On laptop #1 (the github account holder), go to "Settings" and then click "Collaborators" on the left sidebar. Type User #2's github name, and click "Add collaborator." Now both users can contribute to the repository directly (we'll talk about other ways of contributing to a repository later.) 
 
@@ -107,7 +107,7 @@ Make a change to hello.txt (or even add a new file!) Run the git commands to Add
 
 You're now collaborating on an open source project. WOoOoooooh! 
 
-8. Bonus rounds! So now, what happens if laptop #1 wants to add or change something more? Can you just go ahead and commit a new file? 
+### 8. Bonus rounds! So now, what happens if laptop #1 wants to add or change something more? Can you just go ahead and commit a new file? 
 
 Spoiler: NO! 
 
@@ -119,7 +119,7 @@ Run the following command to resolve it:
 
 Now laptop #1 and laptop #2 are both in sync with what's on github, and you can continue working.
 
-9. Branching, forking, merging, merge conflicts and open source... we're out of time!
+### 9. Branching, merging, reverting, merge conflicts and open source... we're out of time!
 
 j/k lol. We might not be out of time. If we're not, here's a few more things to try. 
 
@@ -145,8 +145,31 @@ On github, in the upper left, you'll see a grey box with "Branch:Master" in it. 
 
 ```git merge login_screen master```
 
+You just combined your login_screen code and your master code. Run ```git log```, and it should be looking pretty interesting now. 
+
+**Uh-oh! A merge conflict :(** There will probably come a time as you work together that you'll find a merge conflict. This happens when two programmers try to change the exact same line. 
+
+
+
+**What if you want to undo?** Every now and then, you'll find you code yourself into such a bad place you just need to throw away a couple of hours work and start over. It's ok! Just as long as you don't have to throw away the whole project. Git lets you do this. That's why you should always commit everything; it gives you more places you can go back to. 
+
+The full list of git commands is more than I can cover today (that's what the documentation link is for) but we will look at this one. It is very usful and very powerful, so be very careful. Take the commit number you'd like to go back to from your git log. 
+
+```git reset --hard ########```
+```git reset --soft HEAD@{1}```
+```git commit -m "Reverting to ######```
+
+As I said, be very careful with this since it will completely erase the work you did after commit ######. Read the git documentation for other ways to revert commits. 
+
+
+
+
+
 
 ## Further Reading
+
+### Full github documentation
+https://git-scm.com/doc
 
 ### Bash commands
 http://www.informit.com/blogs/blog.aspx?b=2e1a39cd-e73b-4f8d-82f2-5f9b769132e1
