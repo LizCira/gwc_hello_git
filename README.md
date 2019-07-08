@@ -7,9 +7,7 @@ Today, we will be learning about some basic, low-level concepts that often aren'
 
 "Open my what??"
 
-MacOS pro-tip detour!! 
-
-Try pressing command-spacebar on your keyabord. This will open the Mac searchlight bar. Type "Terminal" in the search bar and hit return on the first result. This will open your terminal. You can also drag the terminal onto your Mac's dock, since you'll probably use it a lot. 
+***MacOS pro-tip detour!! Try pressing command-spacebar on your keyabord. This will open the Mac searchlight bar. Type "Terminal" in the search bar and hit return on the first result. This will open your terminal. You can also drag the terminal onto your Mac's dock, since you'll probably use it a lot.***
 
 Ok. Now you have the terminal open. You can customize your terminal too, there's a link in "Further reading."
 
@@ -62,7 +60,7 @@ Type the following:
 
 ```git commit -m "My first commit"```
 
-### Detour 2: What does the "-m" mean? The "m" here stands for message, and it can be any text you want it to be. A good message should describe your changes, so a programmer reading the git messages can understand your thoughts while you were writing your code. 
+***Detour 2: What does the "-m" mean? The "m" here stands for message, and it can be any text you want it to be. A good message should describe your changes, so a programmer reading the git messages can understand your thoughts while you were writing your code. ***
 
 Congratulations! You committed. But nothing looks different. Try typing 
 
@@ -76,10 +74,19 @@ If you want to, now try making a second change to your .txt file, and commit tha
 
 https://github.com/
 
-Pick a username and password, and use your email address, and you're all set! 
+Pick a username and password, and use your email address. You're all set! Later you can customize your new github.com account with a picture and biography. 
 
+Click the green "NEW" button in the upper left corner. Agree on a name for your repository, keep it public, and check the box to include a README. Then click the green "Create Repository" button. 
 
+Now, in your web browser, you'll see instructions for **adding a remote**. You have an existing repository already, so we'll use the second set of instructions ("... or push an existing repository") You've already run "init" and made a couple of commits, so all that's left to do is add the remote URL and send your code off to github. Copy the entire "git remote add" command exactly from the github web apge. 
 
+Example: 
+
+```git remote add origin git@github.com:LizCira/test.git```
+
+Now, push the code: 
+
+```git push -u origin master```
 
 
 # Further Reading
