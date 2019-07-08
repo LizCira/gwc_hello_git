@@ -167,7 +167,9 @@ Overwrite the first line of hello.txt. Then try to commit and push it back to ma
 The full list of git commands is more than I can cover today (that's what the documentation link is for) but we will look at this one. It is very usful and very powerful, so be very careful. Take the commit number you'd like to go back to from your git log. 
 
 ```git reset --hard ########```
+
 ```git reset --soft HEAD@{1}```
+
 ```git commit -m "Reverting to ######```
 
 As I said, be very careful with this since it will completely erase the work you did after commit ######. Read the git documentation for other ways to revert commits. 
