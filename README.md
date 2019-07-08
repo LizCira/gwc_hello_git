@@ -61,7 +61,7 @@ You should see hello.txt. Excellent. So, just like you saved the text document, 
 
 Type the following: 
 
-```git add -A .```
+```git add -A```
 
 ```git commit -m "My first commit"```
 
