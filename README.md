@@ -70,13 +70,13 @@ Now you should see the author, date, commit message, and a long text string (we'
 
 If you want to, now try making a second change to your .txt file, and commit that with the same commands above. Don't forget to change your message!
 
-6. This is grat, we've got our code saved locally, but how do we share it. It's time to learn about **pushing code** and to do that, we'll sign up for github.com. 
+6. This is great, we've got our code saved locally, but how do we share it. It's time to learn about **pushing code** and to do that, we'll sign up for github.com. 
 
 https://github.com/
 
-Pick a username and password, and use your email address. You're all set! Later you can customize your new github.com account with a picture and biography. 
+Everyone in the team should do this on their own laptop: pick a username and password, and use your email address. You're all set! Later you can customize your new github.com account with a picture and biography. 
 
-Click the green "NEW" button in the upper left corner. Agree on a name for your repository, keep it public, and check the box to include a README. Then click the green "Create Repository" button. 
+Now, go back to laptop #1 Click the green "NEW" button in the upper left corner. Agree on a name for your repository, keep it public, and check the box to include a README. Then click the green "Create Repository" button. 
 
 Now, in your web browser, you'll see instructions for **adding a remote**. You have an existing repository already, so we'll use the second set of instructions ("... or push an existing repository") You've already run "init" and made a couple of commits, so all that's left to do is add the remote URL and send your code off to github. Copy the entire "git remote add" command exactly from the github web apge. 
 
@@ -88,6 +88,17 @@ Now, push the code:
 
 ```git push -u origin master```
 
+Now, refresh your browser, and you'll see your file!
+
+Even crazier, switch to laptop #2 and type in the github URL for your new repository. You should see the same thing. Anyone on the internet can you see your hello.txt now. Congratulations, you've shared code! This is so exciting, let's just take sixty second to celebrate our greatness. 
+
+7. Whew! That was fun, but we're back. We used laptop #1 to write a file, and share it. Now we're going to use laptop #2 to **pull** the code, and contribute. 
+
+Laptop #2 should already be open to the github repository we created. On the right of the page, you should see a "Clone or download" button. Click that button, and you'll see a URL. If it's not already done, select "Use HTTPS." Copy the https: URL, and run the following command (using your own URL, of course):
+
+```git clone https://github.com/LizCira/test.git```
+
+Now, look on your computer's desktop, and you'll see a new folder. What is this?? It's the repository! 
 
 # Further Reading
 
