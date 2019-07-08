@@ -156,7 +156,7 @@ You just combined your login_screen code and your master code. Run ```git log```
 
 Try it yourselves within your group and see what happens. First run
 
-```cd master```
+```git checkout master```
 
 ```git pull origin master```
 
