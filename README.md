@@ -60,7 +60,7 @@ Type the following:
 
 ```git commit -m "My first commit"```
 
-***Detour 2: What does the "-m" mean? The "m" here stands for message, and it can be any text you want it to be. A good message should describe your changes, so a programmer reading the git messages can understand your thoughts while you were writing your code. ***
+***Detour 2: What does the "-m" mean? The "m" here stands for message, and it can be any text you want it to be. A good message should describe your changes, so a programmer reading the git messages can understand your thoughts while you were writing your code.***
 
 Congratulations! You committed. But nothing looks different. Try typing 
 
@@ -117,7 +117,9 @@ Run the following command to resolve it:
 
 ```git pull origin master```
 
-Now laptop #1 and laptop #2 are both in sync with what's on github. 
+Now laptop #1 and laptop #2 are both in sync with what's on github, and you can continue working.
+
+9. Merge conflicts and open source... we're out of time!
 
 
 
