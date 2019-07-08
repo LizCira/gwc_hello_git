@@ -119,8 +119,31 @@ Run the following command to resolve it:
 
 Now laptop #1 and laptop #2 are both in sync with what's on github, and you can continue working.
 
-9. Merge conflicts and open source... we're out of time!
+9. Branching, forking, merging, merge conflicts and open source... we're out of time!
 
+j/k lol. We might not be out of time. If we're not, here's a few more things to try. 
+
+**Make a branch**: Branching is for working on a feature without changing the original ("master") code. Often, a development team will work on different features, for example, "Add a log-in screen" or "Update the fonts." So that the master code is always in working condition, they create a second code branch. Try this: 
+
+```git branch login_screen```
+
+```git checkout login_screen```
+
+Create a second file, with whatever content you want. 
+
+```git add -A .```
+
+```git commit -m "Lookit my branch!```
+
+```git push origin login_screen```
+
+On github, in the upper left, you'll see a grey box with "Branch:Master" in it. Now, that box will have a second drop-down option when you click it; it's your new branch! You'll see now there are two versions of your code. The master code is in a **known good state**, and a cool new feature ("login screen") is being developed and tested. 
+
+**Merge your branch**: So what happens when the login screen is done?? It's like we have two versions of the same code right now. Try this: 
+
+```git checkout master``` (Now you're back on the master branch)
+
+```git merge login_screen master```
 
 
 ## Further Reading
@@ -134,8 +157,14 @@ https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
 ### More about merge conflicts
 https://help.github.com/en/articles/about-merge-conflicts
 
+### More about forking code
+https://help.github.com/en/articles/fork-a-repo
+
 ### Markdown
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
-## Bash Prompt
+### Bash Prompt
 http://osxdaily.com/2013/02/05/improve-terminal-appearance-mac-os-x/
+
+### The history of open source
+http://www.unterstein.net/su/docs/CathBaz.pdf
