@@ -92,13 +92,22 @@ Now, refresh your browser, and you'll see your file!
 
 Even crazier, switch to laptop #2 and type in the github URL for your new repository. You should see the same thing. Anyone on the internet can you see your hello.txt now. Congratulations, you've shared code! This is so exciting, let's just take sixty second to celebrate our greatness. 
 
+
 7. Whew! That was fun, but we're back. We used laptop #1 to write a file, and share it. Now we're going to use laptop #2 to **pull** the code, and contribute. 
+
+For this exercise, both users will need to be collaborators. You'll see a few tabs at the top of your github page. On laptop #1 (the github account holder), go to "Settings" and then click "Collaborators" on the left sidebar. Type User #2's github name, and click "Add collaborator." Now both users can contribute to the repository directly (we'll talk about other ways of contributing to a repository later.) 
 
 Laptop #2 should already be open to the github repository we created. On the right of the page, you should see a "Clone or download" button. Click that button, and you'll see a URL. If it's not already done, select "Use HTTPS." Copy the https: URL, and run the following command (using your own URL, of course):
 
 ```git clone https://github.com/LizCira/test.git```
 
-Now, look on your computer's desktop, and you'll see a new folder. What is this?? It's the repository! 
+Now, look on your computer's desktop, and you'll see a new folder. What is this?? It's the repository! You just **cloned** your first repo. 
+
+Make a change to hello.txt (or even add a new file!) Run the git commands to Add, Commit, and Push again. Now you'll see the changes on github.
+
+You're now collaborating on an open source project. WOoOoooooh! 
+
+
 
 # Further Reading
 
