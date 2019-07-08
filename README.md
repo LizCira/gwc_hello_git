@@ -179,7 +179,8 @@ https://github.com/issues?page=3&q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%2
 
 Although both of those can be pretty advanced, so don't get discouraged! 
 
-## Whew! We really are done. Thank you for reading!
+### Whew! We really are done. Thank you for reading!
+<iframe src="https://giphy.com/embed/l3q2zVr6cu95nF6O4" width="480" height="236" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/producthunt-party-parrot-parrots-l3q2zVr6cu95nF6O4">via GIPHY</a></p>
 
 
 ## Further Reading
