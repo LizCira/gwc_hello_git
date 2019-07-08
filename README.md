@@ -173,10 +173,13 @@ So why are we sharing all of this code, anyway? If you put all this work into so
 
 Think about contributing to open source. If you want to learn more, github has a "Good first issue" tag
 https://github.com/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22
-Also, a "Help wanted" tag
+
+Also, a "Help wanted" tag:
 https://github.com/issues?page=3&q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22
 
 Although both of those can be pretty advanced, so don't get discouraged! 
+
+## Whew! We really are done. Thank you for reading!
 
 
 ## Further Reading
