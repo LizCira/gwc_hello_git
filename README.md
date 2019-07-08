@@ -81,7 +81,7 @@ https://github.com/
 
 Everyone in the team should do this on their own laptop: pick a username and password, and use your email address. You're all set! Later you can customize your new github.com account with a picture and biography. 
 
-Now, go back to laptop #1 Click the green "NEW" button in the upper left corner. Agree on a name for your repository, keep it public, and check the box to include a README. Then click the green "Create Repository" button. 
+Now, go back to laptop #1 Click the green "NEW" button in the upper left corner. Agree on a name for your repository, keep it public, and leave the README box unchecked. Then click the green "Create Repository" button. 
 
 Now, in your web browser, you'll see instructions for **adding a remote**. You have an existing repository already, so we'll use the second set of instructions ("... or push an existing repository") You've already run "init" and made a couple of commits, so all that's left to do is add the remote URL and send your code off to github. Copy the entire "git remote add" command exactly from the github web apge. 
 
