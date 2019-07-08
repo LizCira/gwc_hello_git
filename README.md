@@ -11,13 +11,17 @@ Today, we will be learning about some basic, low-level concepts that often aren'
 
 Ok. Now you have the terminal open. You can customize your terminal too, there's a link in "Further reading."
 
-### 2) Now that you have your terminal open, the first thing we're going to do is configure git. Git has already been installed on your latptops. Of course, use your name and email address instead of the examples below. Congratulations! You're now a git user. 
+### 2) Now that you have your terminal open, the first thing we're going to do is configure git. 
+
+Git has already been installed on your latptops. Of course, use your name and email address instead of the examples below. Congratulations! You're now a git user. 
 
 ```git config --global user.name "FIRST_NAME LAST_NAME"```
 
 ```git config --global user.email "MY_NAME@example.com"```
 
-### 3) Next we're going to pair up and make your first git repo. We're going to do what's called **pair programming**, where you both work at one workstation (laptop.) Often, developers do this because a second set of eyes catches bugs faster while the code is still being written. Today, we're doing it so you can learn how git is used to share code between two (or more) programmers. 
+### 3) Next we're going to pair up and make your first git repo. 
+
+We're going to do what's called **pair programming**, where you both work at one workstation (laptop.) Often, developers do this because a second set of eyes catches bugs faster while the code is still being written. Today, we're doing it so you can learn how git is used to share code between two (or more) programmers. 
 
 On laptop #1, type the following linux commands into your terminal 
 
