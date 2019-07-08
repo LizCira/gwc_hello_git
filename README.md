@@ -42,6 +42,7 @@ A **reposistory** is where you can upload code. For today's demo, we're going to
 ### 4. Lets add some content to our repository! Still using laptop #1, type the following: 
 
 ```touch hello.txt```
+
 ```open hello.txt```
 
 This will open the new file in your text editor. You'll see a blank page.
