@@ -100,7 +100,7 @@ Even crazier, switch to laptop #2 and type in the github URL for your new reposi
 
 ### 7. Whew! That was fun, but we're back. We used laptop #1 to write a file, and share it. Now we're going to use laptop #2 to **pull** the code, and contribute. 
 
-For this exercise, both users will need to be collaborators. You'll see a few tabs at the top of your github page. On laptop #1 (the github account holder), go to "Settings" and then click "Collaborators" on the left sidebar. Type User #2's github name, and click "Add collaborator." Now both users can contribute to the repository directly (we'll talk about other ways of contributing to a repository later.) 
+For this exercise, both users will need to be collaborators. You'll see a few tabs at the top of your github page. On laptop #1 (the github account holder), go to "Settings" and then click "Collaborators" on the left sidebar. Type User #2's github name, and click "Add collaborator." Now both users can contribute to the repository directly (we'll talk about other ways of contributing to a repository later.) We may not get to cover it during the talk, but I've included links about using **pull requests** in your development workflow--this is one a developer requests review and approval of their code before they can add to a repo. 
 
 Laptop #2 should already be open to the github repository we created. On the right of the page, you should see a "Clone or download" button. Click that button, and you'll see a URL. If it's not already done, select "Use HTTPS." Copy the https: URL, and run the following command (using your own URL, of course):
 
@@ -205,8 +205,9 @@ https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History
 ### More about merge conflicts
 https://help.github.com/en/articles/about-merge-conflicts
 
-### More about forking code
+### More about forking code & using pull requests 
 https://help.github.com/en/articles/fork-a-repo
+https://gist.github.com/Chaser324/ce0505fbed06b947d962
 
 ### Markdown
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
