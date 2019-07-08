@@ -181,7 +181,7 @@ Although both of those can be pretty advanced, so don't get discouraged!
 
 ### Whew! We really are done. Thank you for reading!
 
-![alt text](https://giphy.com/gifs/producthunt-party-parrot-parrots-l3q2zVr6cu95nF6O4 "Party!")
+![alt text](https://media.giphy.com/media/l3q2zVr6cu95nF6O4/giphy.gif "Party!")
 
 
 ## Further Reading
