@@ -83,6 +83,9 @@ Everyone in the team should do this on their own laptop: pick a username and pas
 
 Now, go back to laptop #1 Click the green "NEW" button in the upper left corner. Agree on a name for your repository, keep it public, and leave the README box unchecked. Then click the green "Create Repository" button. 
 
+![alt text](https://mobileapps-pipeline-resign.s3.amazonaws.com/misc-hosting/Screen+Shot+2019-07-08+at+12.32.12+PM.png "New repo!")
+
+
 Now, in your web browser, you'll see instructions for **adding a remote**. You have an existing repository already, so we'll use the second set of instructions ("... or push an existing repository") You've already run "init" and made a couple of commits, so all that's left to do is add the remote URL and send your code off to github. Copy the entire "git remote add" command exactly from the github web apge. 
 
 Example: 
@@ -100,9 +103,17 @@ Even crazier, switch to laptop #2 and type in the github URL for your new reposi
 
 ### 7. Whew! That was fun, but we're back. We used laptop #1 to write a file, and share it. Now we're going to use laptop #2 to **pull** the code, and contribute. 
 
-For this exercise, both users will need to be collaborators. You'll see a few tabs at the top of your github page. On laptop #1 (the github account holder), go to "Settings" and then click "Collaborators" on the left sidebar. Type User #2's github name, and click "Add collaborator." Now both users can contribute to the repository directly (we'll talk about other ways of contributing to a repository later.) We may not get to cover it during the talk, but I've included links about using **pull requests** in your development workflow--this is one a developer requests review and approval of their code before they can add to a repo. 
+For this exercise, both users will need to be collaborators. You'll see a few tabs at the top of your github page. On laptop #1 (the github account holder), go to "Settings" and then click "Collaborators" on the left sidebar. Type User #2's github name, and click "Add collaborator." 
 
-Laptop #2 should already be open to the github repository we created. On the right of the page, you should see a "Clone or download" button. Click that button, and you'll see a URL. If it's not already done, select "Use HTTPS." Copy the https: URL, and run the following command (using your own URL, of course):
+![alt text](https://mobileapps-pipeline-resign.s3.amazonaws.com/misc-hosting/Screen+Shot+2019-07-08+at+12.57.16+PM.png "Add collaborator!")
+
+Now both users can contribute to the repository directly (we'll talk about other ways of contributing to a repository later.) We may not get to cover it during the talk, but I've included links about using **pull requests** in your development workflow--this is one a developer requests review and approval of their code before they can add to a repo. 
+
+Laptop #2 should already be open to the github repository we created. On the right of the page, you should see a "Clone or download" button. Click that button, and you'll see a URL. If it's not already done, select "Use HTTPS." 
+
+![alt text](https://mobileapps-pipeline-resign.s3.amazonaws.com/misc-hosting/Screen+Shot+2019-07-09+at+9.20.40+AM.png "git clone!")
+
+Copy the https: URL, and run the following command (using your own URL, of course):
 
 ```git clone https://github.com/LizCira/test.git```
 
