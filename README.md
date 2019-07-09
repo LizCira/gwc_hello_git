@@ -224,7 +224,7 @@ https://gist.github.com/Chaser324/ce0505fbed06b947d962
 ### Markdown
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
-### Bash Prompt
+### Customizing your terminal
 http://osxdaily.com/2013/02/05/improve-terminal-appearance-mac-os-x/
 
 ### The history of Linux open source
